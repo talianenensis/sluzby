@@ -1,0 +1,250 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    padding: 60px 20px;
+
+}
+
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color:black
+}
+
+.happy {
+    font-size: 16px;
+    color: #8B8B8B;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+hr {
+    width: 50px;
+    margin: 0 auto;
+    border: 1px solid #407BFF;
+}
+
+.button {
+    outline: 0;
+	border: 0 solid rgb(177, 173, 173);
+	border-radius: 20px;
+	background-color: #407BFF;
+	color: white;
+	padding: 10px 30px;
+	font: 14px/1.5 sans-serif ;
+	margin: 20px auto;
+    display: block;
+}
+
+.gray {
+    background-color: #8B8B8B;
+}
+
+.pole {
+    background-color: white;
+    color: #8B8B8B;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 300;
+    border: 0;
+    box-shadow: 0 4px 6px #407BFF1F;
+    flex: 1 1 calc((100% - 40px) / 3);
+    border-radius: 7px;
+    padding: 20px;
+    display: block;
+    margin: 20px;
+}
+
+h2 {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.icon {
+    width: 45px;
+    height: 40px;    
+    float: left;
+}
+
+.foto-happy {
+    width: 350px;
+    height: 290px;
+    padding: 0;
+    margin: 60px 75px 0;
+}
+
+.all {
+    width: 500px;
+    border: 1px solid #d4d4d4;
+    background-color: #FAFAFA;
+    padding-bottom: 40px;
+}
+
+
+@media screen and (min-width: 640px) {
+
+    .foto-happy {
+        width: 400px;
+        height: 332px;
+        padding: 0;
+        margin: 60px 185px 0;
+    }
+    
+    .all {
+        width: 768px;
+        border: 1px solid #d4d4d4;
+        background-color: #FAFAFA;
+        padding-bottom: 40px;
+    }
+
+    .kontejner {
+        display: flex;
+    } 
+
+
+    .pole {
+        flex: 0 1 calc((100% - 40px) / 3);
+        margin: 20px;
+    }
+
+    .icon {
+        display: block;
+        float: none;
+        margin: 20px auto 20px auto;
+    }
+
+    .button {
+        display: inline-block;
+        margin: 10px; 
+    }
+
+    .blue {
+        margin-left: 160px;
+    }
+
+    .gray {
+        margin-right: 160px;
+    }
+
+    .happy {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    .foto-happy {
+        width: 425px;
+        height: 354px;
+        padding: 0;
+        margin: 0 0 0 94px;
+       
+    }
+    
+    .all {
+        width: 1200px;
+        border: 1px solid #d4d4d4;
+        background-color: #FAFAFA;
+        padding: 60px 80px;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+    }
+
+    .text {
+        flex: 1 1 488px;
+        order: 1;
+    }
+
+    .obrazek {
+        flex: 1 1 425px;
+        order: 2;
+    }
+
+
+    .kontejner {
+        display: flex;
+        align-items: center;
+        flex: 1 1 550px;
+    } 
+
+    .kontejner-text1 {
+        flex: 1 1 430px;
+        margin: 0 0 0 60px;
+    }
+
+    .kontejner-text2 {
+        flex: 1 1 430px;
+        margin: 0 60px 0 0 ;
+    }
+
+    h1 {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    hr {
+        margin: 0 auto 30px 0;
+    }
+
+    .pole {
+        flex: 0 1 170px;
+        height: 190px;
+        margin: 40px 20px 0 0;
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: left;
+        padding-top: 20px;
+    } 
+
+    .icon {
+        display: block;
+        float: none;
+        margin: 20px auto 20px auto;
+    }
+
+    .button {
+        display: inline-block;
+        margin: 0; 
+        margin-top: 20px;
+    }
+
+    .blue {
+        margin-right: 20px;
+    }
+
+
+    .happy {
+        margin: 0;
+        text-align: left;
+        padding: 0;
+    }
+
+    .box2,
+    .box3 {
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .kontejner box2 {
+        order: 1;
+    }
+
+    .kontejner-text1 {
+        order: 2;
+    }
+
+
+}
